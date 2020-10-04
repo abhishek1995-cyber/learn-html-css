@@ -1,0 +1,62 @@
+<html>
+
+    <head>
+        <title>boxexercise</title>
+        <style>
+         .box{width:200px;
+         height:100px;
+          margin: 20px;
+         border: 2px solid black;}
+         .box2,.box3{display: inline-block;}
+         .box3{border: 2px dotted black;}
+         .box4{border: 2px dotted black;}
+         .box5{border: none;}
+         .box4,.box5{display:inline-block;}
+         .container .box{background: red;}
+         .s1{width:300px;
+         height:150px;
+         border:50px solid lightcoral}
+         .s2{
+             border:15px solid red;
+             background-color: green;
+             padding: 51px;
+             text-align: center;
+             }
+           .b1{width:220;
+           height:110;
+           border:40px solid lightsalmon}
+           .b2{ background-color: green;
+           border: 10px solid red;
+           box-sizing: border-box;
+           padding:36px;
+           text-align: center;
+           }  
+        </style>
+    </head>
+    <body>
+        <h1>exercise 1</h1>
+        <div class="container">
+            <div class="box box1"></div>
+        </div>
+        <div class="container">
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+        <div class="container">
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+    </div>
+    <h1>exercise 2: Content-box</h1>
+    <div class="Contentbox">
+        <div class="s1">
+            <div class="s2">Content</div>
+        </div>
+</div>
+<h1> exercise 3: Border-box</h1>
+<div class="border">
+    <div class="b1">
+        <div class="b2">content</div>
+    </div>
+</div>
+    </body>
+</html>
