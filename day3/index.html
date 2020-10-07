@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .curved{border-radius: 5px;}
+        span{ background-color: blanchedalmond;}
+        .box{width: 60%;
+        margin: 0 auto;}
+        .box h1{text-align: center;}
+        .b1{background-color: red;
+        width: 47%;
+        margin: 5px;
+        padding: 10px;}
+        .b2{background-color: red;
+        width: 47%;
+        padding: 10px;}
+        .b3{background-color: green;
+        width: 47%;
+        padding: 10px;}
+        .b4{background-color: green;
+        width: 47%;
+        padding: 10px;}
+        .b5{background-color: brown;
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 15px;}
+        .b6{background-color: brown;
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 15px;}
+        .b7{background-color: green;
+        width: 52%;
+        padding: 10px;}
+        .b8{background-color: green;
+        width: 43%;
+        padding: 10px;}
+        .cont1{position: relative;margin-bottom: 64px;}
+        .b2{position: absolute;
+        right: 5px;
+        top: 0;}
+        .cont2{position: relative;
+        margin-bottom: 48px;}
+        .b4{position: absolute;right: 5px;
+        top: 0;}
+        .cont3{position: relative;}
+        .b8{position: absolute;
+        right: 5px;
+        top: 0;}
+    </style>
+</head>
+<body>
+    <section class="box">
+    <h1>Size-By-Side Positioning demo</h1>
+    <section class="cont1">
+        <section class="curved b1">These two divs are positioned next to one another using <span>display: inline-block</span></section>
+        <section class="curved b2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id sem massa. Sed sem lectus, efficitur et blandit in, convallis sed dui. Donec malesuada, quam nec semper sodales, metus libero venenatis ipsum, a vehicula odio risus vitae tellus. Vivamus a suscipit elit, vitae aliquam felis.</section>
+    </section>
+    <section class="cont2">
+        <section class="curved b3">These two are positioned using <span>float:left.</span></section>
+        <section class="curved b4">Curabitur vehicula ipsum id lectus finibus euismod. Fusce gravida condimentum finibus. Aenean eleifend mi diam, id tempus lorem vehicula gravida.
+        </section>
+    </section>
+        <section class="curved b5">Cras sagittis diam eu sollicitudin pharetra. Nullam eget magna iaculis, fringilla orci vitae, aliquam eros. Duis sit amet gravida diam, ut volutpat arcu.
+        </section>
+        <section class="curved b6">Curabitur eget arcu risus. Quisque finibus leo in nibh egestas, ac porta felis sodales. Vivamus lacinia dui id libero vestibulum varius.
+              </section>
+              <section class="cont3">
+              <section class="curved b7">i think we progress a lot in coding in past 5 days.</section>
+              <section class="curved b8">Nam id nisl dapibus, lobortis metus id, malesuada tellus. Fusce vel elit vel tortor porttitor laoreet in ac metus. Nam mattis sollicitudin dui eget laoreet.
+              </section>
+            </section>
+    </section>
+</body>
+</html>
