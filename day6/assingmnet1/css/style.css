@@ -1,0 +1,139 @@
+/* Custome css */
+
+body {
+	margin: 0%;
+}
+.container {
+	background-color: darkolivegreen;
+}
+.sub-container {
+	text-align: center;
+}
+.box1 {
+	background-image: url("../assets/Copy\ of\ background.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	position: relative;
+}
+.link {
+	margin-left: 20px;
+	color: black;
+	text-decoration: none;
+}
+.head {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50px,-50px);
+	color: black;
+}
+.box2 {
+	display: block;
+	width: 33%;
+}
+.box3 {
+	display: block;
+	width: 33.06%;
+}
+.box4 {
+	display: block;
+	width: 33.04%;
+}
+.box2,.box3,.box4 {
+	display: inline-block;
+	background-color: white;
+	display: inline-block;
+}
+.video {
+	 width: 470px;
+}
+.audio {
+	margin-bottom: 65px;
+}
+.sub-container1{
+	background-color: white;
+	margin-top: 5px;
+}
+.sub-container2 {
+	height: 100vh;
+	width: 100wh;
+	background-color: chartreuse;
+	padding: 2px;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+p {
+	margin: 30px;
+}
+.box5{
+	height: 511px;
+	width: 860px;
+	margin-left: 235px;
+	background-color: white;
+}
+.video2 {
+	width: 84%;
+	margin: 53px 69px;
+}
+.sub-container3 {
+	background-color: lightgreen;
+	height: 100vh;
+	width: 100wh;
+	padding: 100px;
+}
+.box6 {
+	background-color: white;
+	height: 770px;
+	padding: 50px;
+}
+.div1, .div2 {
+	height: 75px;
+	width: 530px;
+	text-align: inherit;
+}
+.div2 {
+	margin-left: 60px;
+}
+.div3 {
+	height: 75px;
+	margin: 35px 0px;
+	width: 1133px;
+}
+.div4 {
+	height: 300px;
+	width: 1133px;
+	margin-bottom: 35px;
+}
+.div5 {
+	height: 50px;
+	width: 225px;
+	text-align: center;
+	background-color: green;
+	color: white;
+}
+.box6 p {
+	text-align: center;
+}
+.div5:hover {
+	color: tomato;
+}
+.sub-container4 {
+	background-color: black;
+	padding: 40px;	
+	text-align: center;
+}
+.map {
+	width: 1190px;
+	margin-left: 60px;
+	margin-bottom: 5px;
+}
+.link1, .link2, .link3 {
+	text-decoration: none;
+	color: white;
+}
+.link2,.link3 {
+	margin-left: 20px;
+}
