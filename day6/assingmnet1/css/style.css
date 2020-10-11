@@ -3,11 +3,8 @@
 body {
 	margin: 0%;
 }
-.container {
+.container{
 	background-color: darkolivegreen;
-}
-.sub-container {
-	text-align: center;
 }
 .box1 {
 	background-image: url("../assets/Copy\ of\ background.jpg");
@@ -15,6 +12,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;	
 	position: relative;
+	text-align: center;
 }
 .link {
 	margin-left: 20px;
