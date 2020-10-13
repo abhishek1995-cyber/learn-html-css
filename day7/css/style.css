@@ -1,0 +1,43 @@
+/* custom css */
+
+.image, .link {
+    display: block;
+}
+.link {
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    display: block;
+    margin-top: 3px;
+    color: black;
+}
+.sub-container1 img {
+    margin-top: 10px;
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+
+/* for computer */
+
+@media only screen and (min-width: 600px) and (max-width: 2000px)
+
+{
+.container {
+    margin: 0 auto;
+    width: 40%;
+}
+.image, .link{
+    display: inline-block;
+}
+.link1 {
+    margin-left: 29%;
+}
+.box1,.box2 {
+    display: inline-block;
+    width: 49%;
+}
+.box2 {
+    margin-left: 7px;
+}
+}
